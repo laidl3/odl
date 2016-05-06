@@ -3,6 +3,15 @@ nnoremap <leader>v <Plug>TaskList
 call pathogen#infect()
 call pathogen#helptags()
 
+" 配色方案
+syntax on  
+set t_Co=256
+set background=dark
+"colorscheme solarized``
+colorscheme molokai
+
+set number
+
 set foldmethod=indent
 set foldlevel=99
 
@@ -34,4 +43,7 @@ map <leader>r :RopeRename<CR>
 
 nmap <leader>a <Esc>:Ack!
 
- map <silent> <F9> :TlistToggle<CR>
+map <silent> <F9> :TlistToggle<CR>
+
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
