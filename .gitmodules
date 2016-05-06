@@ -60,7 +60,7 @@
         ignore = dirty
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
-	url = https://github.com/sontek/minibufexpl.vim.git
+	url = https://github.com/fholgado/minibufexpl.vim.git
         ignore = dirty
 [submodule "bundle/rope-vim"]
 	path = bundle/rope-vim
