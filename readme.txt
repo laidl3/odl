@@ -7,6 +7,13 @@ install the following software:
    4.  apt-get python-mode
 */
 
+        
+        then you can do this to get the submodules:
+               1.  cp -R ~/.vim/odl/. ~/.vim/
+               2.  rm -rf ~/.vim/odl/
+               3.  ln -s ~/.vim/vimrc ~/.vimrc
+               4.  git submodule init
+               5.  git submodule update
 
 
         ============================================
