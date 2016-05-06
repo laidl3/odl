@@ -3,7 +3,7 @@ nnoremap <leader>v <Plug>TaskList
 call pathogen#infect()
 call pathogen#helptags()
 
-" 配色方案
+"color scheme
 syntax on  
 set t_Co=256
 set background=dark
